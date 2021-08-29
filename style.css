@@ -2,7 +2,13 @@
    Author's custom styles
 ========================================================================== */
 body {
-    font-family: 'Roboto', sans-serif;     
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/sliderbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;     
 }
 /* ==========================================================================
    Home page  
@@ -10,20 +16,22 @@ body {
 
 /*-------------slider------------------*/
 .slider_area {
-    background-image: url(img/sliderbg.jpg);
+    /*background-image: url(img/sliderbg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 625px;
+    height: 625px;*/
 }
 
 .slider_video {
     position: relative;
-    /*margin: 95px 185px 0 0;*/
-    /* padding: 15px 15px 80px; */
-    /*padding: 0 15px 120px;*/
+    /* margin: 95px 185px 0 0; */
+    padding: 0px 0px 50px;
+    /* padding: 0 15px 120px; */
     z-index: 0;
     margin-top: 12px;
+    height: 100%;
+    width: 100%;
 }
 .tvcontent {
     padding-bottom: 11.0% /*56.25%*/;
